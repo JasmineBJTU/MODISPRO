@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configurations>
+	<Properties>
+		<Product_Type name="MOD09A1">
+			<Bands value="0 1 0 0 0 0 1 1 0 0 0 0 0" />
+			<Typesuffixs value="sur_refl_b02,sur_refl_b07,sur_refl_qc_500m" />
+			<QAsuffix value="sur_refl_qc_500m" />
+			<Valid_range>
+				<Element name="sur_refl_b02" value="-100,16000" />
+				<Element name="sur_refl_b07" value="-100,16000" />
+			</Valid_range>
+			<Fillvalue>
+				<Element name="sur_refl_b02" value="-28672,-999" />
+				<Element name="sur_refl_b07" value="-28672,-999" />
+				<Element name="sur_refl_qc_500m" value="-1,-999" />
+			</Fillvalue>
+			<Scale_factor value="0.0001,0.0001" />
+			<Resolution value="0.005" />
+		</Product_Type>
+		<Product_Type name="MOD13A2">
+			<Bands value="1 0 1 0 0 0 0 0 0 0 0 0" />
+			<Typesuffixs value="1_km_16_days_NDVI,1_km_16_days_VI_Quality" />
+			<QAsuffix value="1_km_16_days_VI_Quality" />
+			<Valid_range>
+				<Element name="1_km_16_days_NDVI" value="-2000,10000" />
+			</Valid_range>
+			<Fillvalue>
+				<Element name="1_km_16_days_NDVI" value="-3000,-999" />
+				<Element name="1_km_16_days_VI_Quality" value="65535,-999" />
+			</Fillvalue>
+			<Scale_factor value="0.0001" />
+			<Resolution value="0.01" />
+		</Product_Type>
+		<Product_Type name="MOD15A2H">
+			<Bands value="1 1 1 0 0 0" />
+			<Typesuffixs value="Fpar_500m,Lai_500m,FparLai_QC" />
+			<QAsuffix value="FparLai_QC" />
+			<Valid_range>
+				<Element name="Fpar_500m" value="0,100" />
+				<Element name="Lai_500m" value="0,100" />
+			</Valid_range>
+			<Fillvalue>
+				<Element name="Fpar_500m" value="255,-999" />
+				<Element name="Lai_500m" value="255,-999" />
+				<Element name="FparLai_QC" value="255,-999" />
+			</Fillvalue>
+			<Scale_factor value="0.01,0.1" />
+			<Resolution value="0.005" />
+		</Product_Type>
+		<Product_Type name="MOD16A2">
+			<Bands value="1 0 0 0 1" />
+			<Typesuffixs value="ET_500m,ET_QC_500m" />
+			<QAsuffix value="ET_QC_500m" />
+			<Valid_range>
+				<Element name="ET_500m" value="-32767,32700" />
+			</Valid_range>			
+			<Fillvalue>
+				<Element name="ET_500m" value="32767,-999" />
+				<Element name="ET_QC_500m" value="255,-999" />
+			</Fillvalue>
+			<Scale_factor value="0.1" />
+			<Resolution value="0.005" />
+		</Product_Type>
+		<Product_Type name="MYD13A2">
+			<Bands value="1 0 1 0 0 0 0 0 0 0 0 0" />
+			<Typesuffixs value="1_km_16_days_NDVI,1_km_16_days_VI_Quality" />
+			<QAsuffix value="1_km_16_days_VI_Quality" />
+			<Valid_range>
+				<Element name="1_km_16_days_NDVI" value="-2000,10000" />
+			</Valid_range>
+			<Fillvalue>
+				<Element name="1_km_16_days_NDVI" value="-3000,-999" />
+				<Element name="1_km_16_days_VI_Quality" value="65535,-999" />
+			</Fillvalue>
+			<Scale_factor value="0.0001" />
+			<Resolution value="0.01" />
+		</Product_Type>		
+	</Properties>
+</Configurations>
