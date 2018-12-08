@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configurations>
+	<Properties>
+		<Product_Type name="MOD09A1">
+			<Bands value="0 1 0 1 0 0 0 1 0 0 0 0 0" />
+			<Attributes>
+				<Element name="sur_refl_b02" validranges="-100,16000" fillvalue="-28672" scale_factor="0.0001" />
+				<Element name="sur_refl_b04" validranges="-100,16000" fillvalue="-28672" scale_factor="0.0001" />
+				<Element name="sur_refl_qc_500m" validranges="0,-765" fillvalue="-1" scale_factor="1" />					
+			</Attributes>
+			<QAsuffix value="sur_refl_qc_500m" />
+			<Resolution value="0.0041666650" />	
+			<Unvalid_value value="-999.0" />
+		</Product_Type>
+		<Product_Type name="MOD13A2">
+			<Bands value="1 0 1 0 0 0 0 0 0 0 0 0" />
+			<Attributes>
+				<Element name="1_km_16_days_NDVI" validranges="-2000,10000" fillvalue="-3000" scale_factor="0.0001" />
+				<Element name="1_km_16_days_VI_Quality" validranges="0,65534" fillvalue="65535" scale_factor="1" />	
+			</Attributes>
+			<QAsuffix value="1_km_16_days_VI_Quality" />
+			<Resolution value="0.00833333" />
+			<Unvalid_value value="-999.0" />
+		</Product_Type>
+		<Product_Type name="MYD13A2">
+			<Bands value="1 0 1 0 0 0 0 0 0 0 0 0" />
+			<Attributes>
+				<Element name="1_km_16_days_NDVI" validranges="-2000,10000" fillvalue="-3000" scale_factor="0.0001" />
+				<Element name="1_km_16_days_VI_Quality" validranges="0,65534" fillvalue="65535" scale_factor="1" />	
+			</Attributes>
+			<QAsuffix value="1_km_16_days_VI_Quality" />
+			<Resolution value="0.00833333" />
+			<Unvalid_value value="-999.0" />
+		</Product_Type>
+		<Product_Type name="MOD15A2H">
+			<Bands value="1 1 1 0 0 0" />	
+			<Attributes>
+				<Element name="Fpar_500m" validranges="0,100" fillvalue="255" scale_factor="0.01" />
+				<Element name="Lai_500m" validranges="0,100" fillvalue="255" scale_factor="0.1" />
+				<Element name="FparLai_QC" validranges="0,254" fillvalue="255" scale_factor="1" />
+			</Attributes>
+			<QAsuffix value="FparLai_QC" />
+			<Resolution value="0.0041666650" />	
+			<Unvalid_value value="-999.0" />
+		</Product_Type>
+		<Product_Type name="MOD16A2">
+			<Bands value="1 0 0 0 1" />
+			<Attributes>
+				<Element name="ET_500m" validranges="-32767,32700" fillvalue="32767" scale_factor="0.1"  />
+				<Element name="ET_QC_500m" validranges="0,254" fillvalue="255" scale_factor="1" />	
+			</Attributes>
+			<QAsuffix value="ET_QC_500m" />
+			<Resolution value="0.0041666650" />	
+			<Unvalid_value value="-999.0" />
+		</Product_Type>		
+	</Properties>
+</Configurations>
